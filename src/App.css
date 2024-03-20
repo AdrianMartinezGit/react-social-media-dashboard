@@ -15,6 +15,18 @@
     --instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
     --youtube: hsl(348, 97%, 39%);
 
+    --bg: hsl(0, 0%, 100%);
+    --bg-top-pattern: hsl(225, 100%, 98%);
+    --card-bg: hsl(227, 47%, 96%);
+    --text-blue: hsl(228, 12%, 44%);
+    --text-white: hsl(230, 17%, 14%);
+    --toggle-circle: hsl(000, 100%, 100%);
+    --card-hover: #e1e3f0;
+    --toggle-button: linear-gradient(to right, hsl(230, 22%, 74%), hsl(230, 22%, 74%));
+    --toggle-hover: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+[css-theme="dark"] {
     --bg: hsl(230, 17%, 14%);
     --bg-top-pattern: hsl(232, 19%, 15%);
     --card-bg: hsl(228, 28%, 20%);
@@ -48,6 +60,8 @@
 
 body {
     background-color: var(--bg);
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .bg-top-pattern {
@@ -57,6 +71,8 @@ body {
     position: absolute;
     border-radius: 0 0 25px 25px;
     z-index: -1;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .overview-title {
@@ -65,6 +81,8 @@ body {
     line-height: 24px;
     font-weight: 700;
     padding-bottom: 22px;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .header-title {
@@ -72,17 +90,23 @@ body {
     line-height: 30px;
     font-weight: 700;
     color: var(--text-white);
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .total-followers {
     font-size: 14px;
     font-weight: 700;
     color: var(--text-blue);
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .hr-class {
     border-width: 0;
     border-color: var(--text-blue);
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .dark-div {
@@ -161,6 +185,8 @@ input:checked+.slider-span:before {
     border-style: solid;
     height: 212px;
     width: 100%;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .card-style:hover {
@@ -173,6 +199,8 @@ input:checked+.slider-span:before {
     font-size: 52px;
     font-weight: 700;
     line-height: 52px;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .follower-text {
@@ -181,6 +209,8 @@ input:checked+.slider-span:before {
     line-height: 13px;
     font-weight: 400;
     letter-spacing: 5px;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .follower-gain {
@@ -200,6 +230,8 @@ input:checked+.slider-span:before {
     height: 125px;
     width: 100%;
     border-radius: 4px;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .overview-card:hover {
@@ -222,13 +254,17 @@ input:checked+.slider-span:before {
     color: var(--text-blue);
     line-height: 14px;
     font-weight: 700;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .number-gain-text {
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
-    color: var(--text-white)
+    color: var(--text-white);
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .perfect-text {
