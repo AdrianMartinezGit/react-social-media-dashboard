@@ -10,6 +10,6 @@ Goal is to remake the following the following project, Social Media Dashboard, w
 
 Uses React, Typescript, TailwindCSS w/ Flowbite, and Vercel
 
-Peer Reviewed by ({User here}):
+Peer Reviewed by: Michael Heckerman
 
-({Comments here})
+Peer Review: Code looks good. The site is a one for one of the design. The light and dark mode work perfectly. Desktop and mobile look and work as intended. 10/10 Good Job!
